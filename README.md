@@ -7,7 +7,7 @@
 
 - 🌱 I’m currently learning Full STack Java Development **Hibernate, Jsp, Jdbc, Boot, Spring Boot**
 
-- 👨‍💻 All of my projects are available at [hellodemo.com](hellodemo.com)
+- 👨‍💻 All of my projects are available at https://yogeshdahatonde.netlify.app/
 
 - 💬 Ask me about **react, Java, Dbms, MySql**
 
