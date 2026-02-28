@@ -1,297 +1,93 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Yogesh Dahatonde | SDET Portfolio</title>
+<h1 align="center">Hi 👋, I'm Yogesh Dahatonde</h1>
+<h3 align="center">SDET | QA Automation Engineer | Java • Rest Assured • Selenium • CI/CD</h3>
 
-<!-- AOS Animation Library -->
-<link href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" rel="stylesheet">
+<p align="center">
+  <a href="https://github.com/Code-With-Yogi">
+    <img src="https://komarev.com/ghpvc/?username=Code-With-Yogi&label=Profile%20Views&color=0e75b6&style=flat" alt="profile views" />
+  </a>
+</p>
 
-<!-- Font Awesome -->
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+---
 
-<style>
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Segoe UI', sans-serif;
-}
+## 🚀 About Me
 
-body {
-    background: #0f172a;
-    color: #fff;
-    scroll-behavior: smooth;
-}
+- 🔭 Currently working as **Software Tester / Automation Engineer**
+- 🧪 Designed & implemented **4000+ API Automation Test Cases**
+- 🌐 Developed **200+ UI Automation Scripts**
+- ⚙️ Working with **Rest Assured, Selenium, Jenkins, OpenText Octane**
+- 🤖 Collaborated with **GenAI Team** for AI-driven Test Case Generation
+- 📈 Executing **6–7 Regression Cycles Weekly**
+- 🎯 Targeting SDET / Automation Engineer roles
 
-/* Navbar */
-nav {
-    display: flex;
-    justify-content: space-between;
-    padding: 20px 10%;
-    background: #111827;
-    position: fixed;
-    width: 100%;
-    z-index: 1000;
-}
+---
 
-nav h2 {
-    color: #38bdf8;
-}
+## 🛠️ Tech Stack
 
-nav a {
-    color: white;
-    text-decoration: none;
-    margin-left: 20px;
-    transition: 0.3s;
-}
+### 💻 Programming
+![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=java&logoColor=white)
 
-nav a:hover {
-    color: #38bdf8;
-}
+### 🧪 Automation & Testing
+![RestAssured](https://img.shields.io/badge/Rest_Assured-000000?style=for-the-badge&logo=java)
+![Selenium](https://img.shields.io/badge/Selenium-43B02A?style=for-the-badge&logo=selenium&logoColor=white)
+![TestNG](https://img.shields.io/badge/TestNG-red?style=for-the-badge)
+![Maven](https://img.shields.io/badge/Maven-C71A36?style=for-the-badge&logo=apache-maven)
 
-/* Hero Section */
-.hero {
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    flex-direction: column;
-    padding: 0 20px;
-}
+### ⚙️ CI/CD & Tools
+![Jenkins](https://img.shields.io/badge/Jenkins-D24939?style=for-the-badge&logo=jenkins&logoColor=white)
+![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
+![Octane](https://img.shields.io/badge/OpenText_Octane-0073CF?style=for-the-badge)
 
-.hero h1 {
-    font-size: 48px;
-    margin-bottom: 15px;
-}
+### 🗄️ Backend Understanding
+![SpringBoot](https://img.shields.io/badge/SpringBoot-6DB33F?style=for-the-badge&logo=springboot&logoColor=white)
+![SQL](https://img.shields.io/badge/SQL-336791?style=for-the-badge&logo=postgresql&logoColor=white)
 
-.hero span {
-    color: #38bdf8;
-}
+---
 
-.hero p {
-    font-size: 20px;
-    margin-bottom: 25px;
-}
+## 📊 GitHub Stats
 
-.btn {
-    padding: 12px 25px;
-    background: #38bdf8;
-    color: #000;
-    border-radius: 6px;
-    text-decoration: none;
-    font-weight: bold;
-    transition: 0.3s;
-}
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=Code-With-Yogi&show_icons=true&theme=tokyonight" alt="stats" />
+</p>
 
-.btn:hover {
-    background: #0ea5e9;
-}
+<p align="center">
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Code-With-Yogi&theme=tokyonight" alt="streak" />
+</p>
 
-/* Section */
-section {
-    padding: 80px 10%;
-}
+---
 
-section h2 {
-    text-align: center;
-    margin-bottom: 40px;
-    font-size: 32px;
-    color: #38bdf8;
-}
+## 📌 Featured Projects
 
-/* Skills */
-.skills-container {
-    display: flex;
-    justify-content: center;
-    gap: 30px;
-    flex-wrap: wrap;
-}
+🔹 **API Automation Framework**
+- Rest Assured + Java + TestNG
+- JSON Schema Validation
+- Token Based Authentication
+- CI/CD Integrated
 
-.skill-card {
-    background: #1e293b;
-    padding: 25px;
-    width: 280px;
-    border-radius: 10px;
-    transition: 0.4s;
-}
+🔹 **UI Automation Framework**
+- Selenium WebDriver + Java
+- Page Object Model
+- Cross Browser Testing
 
-.skill-card:hover {
-    transform: translateY(-10px);
-}
+🔹 **Spring Boot REST API Projects**
+- Backend Development Understanding
+- API Architecture Knowledge
 
-.skill-card h3 {
-    margin-bottom: 15px;
-    color: #38bdf8;
-}
+---
 
-.skill-card ul {
-    list-style: none;
-}
+## 🤝 Connect With Me
 
-.skill-card li {
-    margin-bottom: 8px;
-}
+<p align="left">
+<a href="https://github.com/Code-With-Yogi" target="blank">
+<img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/github.svg" alt="github" height="30" width="40" />
+</a>
+<a href="https://linkedin.com/in/YOUR-LINKEDIN" target="blank">
+<img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/linkedin.svg" alt="linkedin" height="30" width="40" />
+</a>
+<a href="mailto:your-email@gmail.com">
+<img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/gmail.svg" alt="gmail" height="30" width="40" />
+</a>
+</p>
 
-/* Projects */
-.project-card {
-    background: #1e293b;
-    padding: 25px;
-    margin: 20px auto;
-    max-width: 600px;
-    border-radius: 10px;
-    text-align: center;
-    transition: 0.4s;
-}
+---
 
-.project-card:hover {
-    transform: scale(1.05);
-}
-
-.project-card a {
-    display: inline-block;
-    margin-top: 10px;
-    color: #38bdf8;
-    text-decoration: none;
-}
-
-/* Contact */
-.contact {
-    text-align: center;
-}
-
-.contact i {
-    font-size: 24px;
-    margin: 15px;
-    color: #38bdf8;
-}
-
-/* Footer */
-footer {
-    text-align: center;
-    padding: 20px;
-    background: #111827;
-    margin-top: 40px;
-}
-
-/* Responsive */
-@media(max-width:768px){
-    .hero h1{
-        font-size: 32px;
-    }
-}
-</style>
-</head>
-
-<body>
-
-<!-- Navbar -->
-<nav>
-    <h2>Yogesh</h2>
-    <div>
-        <a href="#about">About</a>
-        <a href="#skills">Skills</a>
-        <a href="#projects">Projects</a>
-        <a href="#contact">Contact</a>
-    </div>
-</nav>
-
-<!-- Hero Section -->
-<div class="hero" id="about" data-aos="fade-up">
-    <h1>Hi, I'm <span>Yogesh Dahatonde</span></h1>
-    <p>SDET | QA Automation Engineer | Java • Rest Assured • Selenium • Jenkins</p>
-    <a href="https://github.com/Code-With-Yogi" target="_blank" class="btn">
-        View GitHub
-    </a>
-</div>
-
-<!-- Skills Section -->
-<section id="skills">
-    <h2 data-aos="fade-up">Automation Expertise</h2>
-
-    <div class="skills-container">
-
-        <div class="skill-card" data-aos="fade-right">
-            <h3><i class="fas fa-code"></i> API Automation</h3>
-            <ul>
-                <li>Rest Assured (Java)</li>
-                <li>4000+ Test Cases Written</li>
-                <li>JSON & Schema Validation</li>
-                <li>Token Authentication</li>
-            </ul>
-        </div>
-
-        <div class="skill-card" data-aos="fade-up">
-            <h3><i class="fas fa-laptop-code"></i> UI Automation</h3>
-            <ul>
-                <li>Selenium WebDriver</li>
-                <li>200+ UI Test Cases</li>
-                <li>Page Object Model</li>
-                <li>Cross Browser Testing</li>
-            </ul>
-        </div>
-
-        <div class="skill-card" data-aos="fade-left">
-            <h3><i class="fas fa-cogs"></i> Tools & CI/CD</h3>
-            <ul>
-                <li>Jenkins Integration</li>
-                <li>OpenText Octane</li>
-                <li>Maven & Git</li>
-                <li>Agile Methodology</li>
-            </ul>
-        </div>
-
-    </div>
-</section>
-
-<!-- Projects Section -->
-<section id="projects">
-    <h2 data-aos="zoom-in">Automation Projects</h2>
-
-    <div class="project-card" data-aos="flip-left">
-        <h3>API Automation Framework</h3>
-        <p>Rest Assured + Java + TestNG + CI/CD Integration</p>
-        <a href="https://github.com/Code-With-Yogi" target="_blank">View Project</a>
-    </div>
-
-    <div class="project-card" data-aos="flip-right">
-        <h3>UI Automation Framework</h3>
-        <p>Selenium WebDriver + Java + Maven</p>
-        <a href="https://github.com/Code-With-Yogi" target="_blank">View Project</a>
-    </div>
-
-</section>
-
-<!-- Contact Section -->
-<section id="contact" class="contact">
-    <h2 data-aos="fade-up">Contact Me</h2>
-    <p data-aos="fade-up">Open to SDET / QA Automation opportunities</p>
-    
-    <a href="https://github.com/Code-With-Yogi" target="_blank">
-        <i class="fab fa-github"></i>
-    </a>
-    <a href="https://linkedin.com" target="_blank">
-        <i class="fab fa-linkedin"></i>
-    </a>
-    <a href="mailto:your-email@gmail.com">
-        <i class="fas fa-envelope"></i>
-    </a>
-</section>
-
-<footer>
-    © 2026 Yogesh Dahatonde | SDET Portfolio
-</footer>
-
-<!-- AOS Script -->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
-<script>
-  AOS.init({
-      duration: 1000,
-      once: true
-  });
-</script>
-
-</body>
-</html>
+⭐ From [Code-With-Yogi](https://github.com/Code-With-Yogi)
