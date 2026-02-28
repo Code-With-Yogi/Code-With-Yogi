@@ -1,30 +1,297 @@
-<h1 align="center">Hi 👋, I'm Yogesh Dahatonde</h1>
-<h3 align="center">A passionate Java Developer from India</h3>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Yogesh Dahatonde | SDET Portfolio</title>
 
-<img align="right" alt="coding" width="400" src="https://camo.githubusercontent.com/cae12fddd9d6982901d82580bdf321d81fb299141098ca1c2d4891870827bf17/68747470733a2f2f6d69726f2e6d656469756d2e636f6d2f6d61782f313336302f302a37513379765349765f7430696f4a2d5a2e676966">
+<!-- AOS Animation Library -->
+<link href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" rel="stylesheet">
 
+<!-- Font Awesome -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 
+<style>
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', sans-serif;
+}
 
-- 🌱 I’m currently learning Full STack Java Development **Hibernate, Jsp, Jdbc, Boot, Spring Boot**
+body {
+    background: #0f172a;
+    color: #fff;
+    scroll-behavior: smooth;
+}
 
-- 👨‍💻 All of my projects are available at https://yogeshdahatonde.netlify.app/
+/* Navbar */
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 10%;
+    background: #111827;
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+}
 
-- 💬 Ask me about **react, Java, Dbms, MySql**
+nav h2 {
+    color: #38bdf8;
+}
 
-- 📫 How to reach me **yogeshdahatonde04@gmail.com**
+nav a {
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+    transition: 0.3s;
+}
 
-- ⚡ Fun fact **I am funny**
+nav a:hover {
+    color: #38bdf8;
+}
 
-<h3 align="left">Connect with me:</h3>
-<p align="left">
-<a href="https://linkedin.com/in/https://www.linkedin.com/in/yogeshdahatonde" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="https://www.linkedin.com/in/yogeshdahatonde" height="30" width="40" /></a>
-</p>
+/* Hero Section */
+.hero {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    padding: 0 20px;
+}
 
-<h3 align="left">Languages and Tools:</h3>
-<p align="left"> <a href="https://getbootstrap.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/bootstrap/bootstrap-plain-wordmark.svg" alt="bootstrap" width="40" height="40"/> </a> <a href="https://www.w3schools.com/css/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" width="40" height="40"/> </a> <a href="https://www.figma.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/figma/figma-icon.svg" alt="figma" width="40" height="40"/> </a> <a href="https://www.w3.org/html/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40"/> </a> <a href="https://www.mysql.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg" alt="mysql" width="40" height="40"/> </a> <a href="https://www.photoshop.com/en" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/photoshop/photoshop-line.svg" alt="photoshop" width="40" height="40"/> </a> <a href="https://www.php.net" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/php/php-original.svg" alt="php" width="40" height="40"/> </a> <a href="https://reactjs.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg" alt="react" width="40" height="40"/> </a> <a href="https://reactnative.dev/" target="_blank" rel="noreferrer"> <img src="https://reactnative.dev/img/header_logo.svg" alt="reactnative" width="40" height="40"/> </a> <a href="https://spring.io/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/springio/springio-icon.svg" alt="spring" width="40" height="40"/> </a> </p>
+.hero h1 {
+    font-size: 48px;
+    margin-bottom: 15px;
+}
 
-<p><img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=code-with-yogi&show_icons=true&locale=en&layout=compact" alt="code-with-yogi" /></p>
+.hero span {
+    color: #38bdf8;
+}
 
-<p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=code-with-yogi&show_icons=true&locale=en" alt="code-with-yogi" /></p>
+.hero p {
+    font-size: 20px;
+    margin-bottom: 25px;
+}
 
-<p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=code-with-yogi&" alt="code-with-yogi" /></p>
+.btn {
+    padding: 12px 25px;
+    background: #38bdf8;
+    color: #000;
+    border-radius: 6px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    background: #0ea5e9;
+}
+
+/* Section */
+section {
+    padding: 80px 10%;
+}
+
+section h2 {
+    text-align: center;
+    margin-bottom: 40px;
+    font-size: 32px;
+    color: #38bdf8;
+}
+
+/* Skills */
+.skills-container {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.skill-card {
+    background: #1e293b;
+    padding: 25px;
+    width: 280px;
+    border-radius: 10px;
+    transition: 0.4s;
+}
+
+.skill-card:hover {
+    transform: translateY(-10px);
+}
+
+.skill-card h3 {
+    margin-bottom: 15px;
+    color: #38bdf8;
+}
+
+.skill-card ul {
+    list-style: none;
+}
+
+.skill-card li {
+    margin-bottom: 8px;
+}
+
+/* Projects */
+.project-card {
+    background: #1e293b;
+    padding: 25px;
+    margin: 20px auto;
+    max-width: 600px;
+    border-radius: 10px;
+    text-align: center;
+    transition: 0.4s;
+}
+
+.project-card:hover {
+    transform: scale(1.05);
+}
+
+.project-card a {
+    display: inline-block;
+    margin-top: 10px;
+    color: #38bdf8;
+    text-decoration: none;
+}
+
+/* Contact */
+.contact {
+    text-align: center;
+}
+
+.contact i {
+    font-size: 24px;
+    margin: 15px;
+    color: #38bdf8;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #111827;
+    margin-top: 40px;
+}
+
+/* Responsive */
+@media(max-width:768px){
+    .hero h1{
+        font-size: 32px;
+    }
+}
+</style>
+</head>
+
+<body>
+
+<!-- Navbar -->
+<nav>
+    <h2>Yogesh</h2>
+    <div>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+    </div>
+</nav>
+
+<!-- Hero Section -->
+<div class="hero" id="about" data-aos="fade-up">
+    <h1>Hi, I'm <span>Yogesh Dahatonde</span></h1>
+    <p>SDET | QA Automation Engineer | Java • Rest Assured • Selenium • Jenkins</p>
+    <a href="https://github.com/Code-With-Yogi" target="_blank" class="btn">
+        View GitHub
+    </a>
+</div>
+
+<!-- Skills Section -->
+<section id="skills">
+    <h2 data-aos="fade-up">Automation Expertise</h2>
+
+    <div class="skills-container">
+
+        <div class="skill-card" data-aos="fade-right">
+            <h3><i class="fas fa-code"></i> API Automation</h3>
+            <ul>
+                <li>Rest Assured (Java)</li>
+                <li>4000+ Test Cases Written</li>
+                <li>JSON & Schema Validation</li>
+                <li>Token Authentication</li>
+            </ul>
+        </div>
+
+        <div class="skill-card" data-aos="fade-up">
+            <h3><i class="fas fa-laptop-code"></i> UI Automation</h3>
+            <ul>
+                <li>Selenium WebDriver</li>
+                <li>200+ UI Test Cases</li>
+                <li>Page Object Model</li>
+                <li>Cross Browser Testing</li>
+            </ul>
+        </div>
+
+        <div class="skill-card" data-aos="fade-left">
+            <h3><i class="fas fa-cogs"></i> Tools & CI/CD</h3>
+            <ul>
+                <li>Jenkins Integration</li>
+                <li>OpenText Octane</li>
+                <li>Maven & Git</li>
+                <li>Agile Methodology</li>
+            </ul>
+        </div>
+
+    </div>
+</section>
+
+<!-- Projects Section -->
+<section id="projects">
+    <h2 data-aos="zoom-in">Automation Projects</h2>
+
+    <div class="project-card" data-aos="flip-left">
+        <h3>API Automation Framework</h3>
+        <p>Rest Assured + Java + TestNG + CI/CD Integration</p>
+        <a href="https://github.com/Code-With-Yogi" target="_blank">View Project</a>
+    </div>
+
+    <div class="project-card" data-aos="flip-right">
+        <h3>UI Automation Framework</h3>
+        <p>Selenium WebDriver + Java + Maven</p>
+        <a href="https://github.com/Code-With-Yogi" target="_blank">View Project</a>
+    </div>
+
+</section>
+
+<!-- Contact Section -->
+<section id="contact" class="contact">
+    <h2 data-aos="fade-up">Contact Me</h2>
+    <p data-aos="fade-up">Open to SDET / QA Automation opportunities</p>
+    
+    <a href="https://github.com/Code-With-Yogi" target="_blank">
+        <i class="fab fa-github"></i>
+    </a>
+    <a href="https://linkedin.com" target="_blank">
+        <i class="fab fa-linkedin"></i>
+    </a>
+    <a href="mailto:your-email@gmail.com">
+        <i class="fas fa-envelope"></i>
+    </a>
+</section>
+
+<footer>
+    © 2026 Yogesh Dahatonde | SDET Portfolio
+</footer>
+
+<!-- AOS Script -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+<script>
+  AOS.init({
+      duration: 1000,
+      once: true
+  });
+</script>
+
+</body>
+</html>
